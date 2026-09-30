@@ -16,3 +16,4 @@ __pycache__/
 *.tsbuildinfo
 tmp.txt
 notices.txt
+backend/wrangler.toml
