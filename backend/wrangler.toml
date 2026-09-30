@@ -1,0 +1,32 @@
+name = "oj-backend"
+main = "src/index.ts"
+compatibility_date = "2024-09-25"
+compatibility_flags = ["nodejs_compat"]
+account_id = "local"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "oj-database"
+database_id = "local-dev-db"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "none"
+run_worker_first = true
+
+[[send_email]]
+name = "SEND_EMAIL"
+
+[vars]
+GITHUB_CLIENT_ID = "local"
+GITHUB_CLIENT_SECRET = "local"
+GITHUB_TOKEN = "local"
+CPOAUTH_CLIENT_ID = "local"
+CPOAUTH_CLIENT_SECRET = "local"
+CALLBACK_SECRET = "local"
+JWT_SECRET = "local-dev-secret"
+JUDGE_REPO = "your-username/oj-judge"
+FRONTEND_URL = "https://your-frontend-url"
+REGISTRATION_OPEN = "true"
+DEFAULT_FROM_EMAIL = "noreply@your-domain.com"

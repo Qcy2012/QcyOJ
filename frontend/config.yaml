@@ -1,0 +1,27 @@
+site:
+  name: "OJ System"
+  short_name: "OJ"
+  description: "Online Judge"
+  icon: "default"
+  favicon: "/favicon.svg"
+  theme: "default"          # "default" / "luogu" / "hydro"，控制 UI 配色方案
+
+footer:
+  enabled: true
+  text: ""
+  links: []
+
+login:
+  hero_title: ""
+  hero_subtitle: ""
+  show_github: true
+  show_cpoauth: true
+
+home:
+  title: ""
+
+contact:
+  email: ""
+
+editor:
+  default_language: "cpp"   # 代码编辑器默认语言:python / cpp / java / javascript
