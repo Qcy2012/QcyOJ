@@ -238,3 +238,4 @@ npx wrangler d1 migrations apply DB --local
 # 执行 SQL 查询
 npx wrangler d1 execute DB --local --command "SELECT COUNT(*) as cnt FROM users"
 ```
+

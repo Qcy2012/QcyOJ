@@ -2,12 +2,12 @@ name = "oj-backend"
 main = "src/index.ts"
 compatibility_date = "2026-09-30"
 compatibility_flags = ["nodejs_compat"]
-account_id = "830aed49055c53b21faba33c9fb53788"
+account_id = ""
 
 [[d1_databases]]
 binding = "DB"
 database_name = "oj-database"
-database_id = "685c6154-d4ad-4bc7-802e-4a45aeca031a"
+database_id = ""
 
 [assets]
 directory = "../frontend/public"
@@ -19,14 +19,14 @@ run_worker_first = true
 name = "SEND_EMAIL"
 
 [vars]
-GITHUB_CLIENT_ID = "Ov23lir58E5yA4GRcHvn"
-GITHUB_CLIENT_SECRET = "78d8c1113e3ab3684acf6567ec16dd50a5713423"
-GITHUB_TOKEN = "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"
+GITHUB_CLIENT_ID = ""
+GITHUB_CLIENT_SECRET = ""
+GITHUB_TOKEN = ""
 CPOAUTH_CLIENT_ID = ""
 CPOAUTH_CLIENT_SECRET = ""
-CALLBACK_SECRET = "Q23nciapFhaihfoaieo8yqah"
-JWT_SECRET = "0Z+zOaGkqldHHOlF11X8ha9SngkczRzrcMky5KCuxWY="
-JUDGE_REPO = "Qcy2012/QcyOJ-Judge"
-FRONTEND_URL = "https://oj.qcyblog.dpdns.org"
+CALLBACK_SECRET = ""
+JWT_SECRET = ""
+JUDGE_REPO = ""
+FRONTEND_URL = ""
 REGISTRATION_OPEN = "true"
-DEFAULT_FROM_EMAIL = "noreply@qcyblog.dpdns.org"
+DEFAULT_FROM_EMAIL = ""
