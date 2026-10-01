@@ -10,7 +10,7 @@ database_name = "oj-database"
 database_id = ""
 
 [assets]
-directory = "../frontend/public"
+directory = "./public"
 binding = "ASSETS"
 not_found_handling = "none"
 run_worker_first = true
