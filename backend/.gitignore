@@ -1,2 +1,3 @@
 wrangler.toml
 .env
+delete_all_users.ps1

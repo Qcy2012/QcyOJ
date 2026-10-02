@@ -18,6 +18,7 @@ tmp.txt
 notices.txt
 backend/wrangler.toml
 wrangler.toml.local
+backend/delete_all_users.ps1
 
 .dev.vars*
 !.dev.vars.example
